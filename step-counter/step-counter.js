@@ -4,7 +4,7 @@ let dailySteps = 0;
 while (true) {
   let input = prompt("dailySteps: ");
 
-  if (input === null || input === "стоп") {
+  if (input === null || input.toLowerCase() === "стоп") {
     alert(` End. Total sumDailySteps ${sum}`);
     break;
   }
