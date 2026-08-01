@@ -12,8 +12,14 @@ let i = min;
 // }
 // console.log("sum :>> ", sum);
 
-do {
+// do {
+//   sum += i;
+//   i++;
+// } while (i <= max);
+// console.log("sum :>> ", sum);
+
+while (i <= max) {
   sum += i;
   i++;
-} while (i <= max);
+}
 console.log("sum :>> ", sum);
