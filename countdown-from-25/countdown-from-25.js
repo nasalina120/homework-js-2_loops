@@ -6,6 +6,10 @@ let i = START_NUMBER;
 //   console.log("i :>> ", i);
 // }
 
-do {
+// do {
+//   console.log("i :>> ", i--);
+// } while (i >= END_NUMBER);
+
+while (i >= END_NUMBER) {
   console.log("i :>> ", i--);
-} while (i >= END_NUMBER);
+}
